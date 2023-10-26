@@ -598,6 +598,7 @@ ul.portfo-main-ul-frst {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity var(--transition-duration) var(--transition-bazier),
     visibility var(--transition-duration) var(--transition-bazier);
+  padding: 72px 24px 24px 24px;
 }
 .is-hidden {
   opacity: 0;
@@ -617,6 +618,7 @@ ul.portfo-main-ul-frst {
   border-radius: 4px;
   transition: transform var(--transition-duration) var(--transition-bazier);
 }
+
 .modal-window-btn {
   position: absolute;
   top: 24px;
@@ -651,4 +653,22 @@ ul.portfo-main-ul-frst {
 
 .modal-window-btn:focus .modal-window-svg {
   fill: #ffffff;
+}
+.modal-window-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--custom-link-color);
+  margin-bottom: 16px;
+}
+.modal-window-form-container {
+  margin-bottom: 8px;
+}
+.modal-window-form-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--custom-menu-color);
+  margin-bottom: 4px;
 }
