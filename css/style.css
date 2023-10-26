@@ -661,6 +661,7 @@ ul.portfo-main-ul-frst {
   letter-spacing: 0.02em;
   color: var(--custom-link-color);
   margin-bottom: 16px;
+  text-align: center;
 }
 .modal-window-form-container {
   margin-bottom: 8px;
@@ -671,6 +672,11 @@ ul.portfo-main-ul-frst {
   letter-spacing: 0.04em;
   color: var(--custom-menu-color);
   margin-bottom: 4px;
+  display: block;
+  color: #8e8f99;
+}
+.modal-window-form-cont-div {
+  position: relative;
 }
 .modal-window-form-input {
   width: 100%;
@@ -680,6 +686,7 @@ ul.portfo-main-ul-frst {
   padding-left: 38px;
   transition: border-color var(--transition-duration) var(--transition-bazier);
   background-color: transparent;
+  outline: transparent;
 }
 .modal-window-form-input:focus {
   border-color: var(--hover-color);
