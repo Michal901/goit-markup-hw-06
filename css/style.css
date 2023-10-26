@@ -719,3 +719,6 @@ ul.portfo-main-ul-frst {
 .modal-window-form-textarea:focus {
   border-color: var(--hover-color);
 }
+.modal-window-checkbox {
+  margin-bottom: 24px;
+}
