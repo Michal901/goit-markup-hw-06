@@ -598,7 +598,6 @@ ul.portfo-main-ul-frst {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity var(--transition-duration) var(--transition-bazier),
     visibility var(--transition-duration) var(--transition-bazier);
-  padding: 72px 24px 24px 24px;
 }
 .is-hidden {
   opacity: 0;
@@ -617,6 +616,7 @@ ul.portfo-main-ul-frst {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform var(--transition-duration) var(--transition-bazier);
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-window-btn {
@@ -680,4 +680,14 @@ ul.portfo-main-ul-frst {
   padding-left: 38px;
   transition: border-color var(--transition-duration) var(--transition-bazier);
   background-color: transparent;
+}
+.modal-window-form-input:focus {
+  border-color: var(--hover-color);
+}
+.modal-window-form-svg {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill var(--transition-duration) var(--transition-bazier);
 }
