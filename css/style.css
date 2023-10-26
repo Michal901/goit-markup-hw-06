@@ -672,3 +672,12 @@ ul.portfo-main-ul-frst {
   color: var(--custom-menu-color);
   margin-bottom: 4px;
 }
+.modal-window-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 38px;
+  transition: border-color var(--transition-duration) var(--transition-bazier);
+  background-color: transparent;
+}
