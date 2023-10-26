@@ -251,7 +251,10 @@ a.hover-menu-sec:focus {
   margin-right: 24px;
 }
 .footer-form-btn {
-  width: 165px;
+  min-width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 40px;
   background-color: var(--hover-color);
   border-radius: 4px;
