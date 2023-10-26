@@ -728,12 +728,12 @@ ul.portfo-main-ul-frst {
   font-size: var(--p-modal-font-size);
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: var(--custom-menu-color);
+  color: var(--grey-border-color);
 }
 .modal-window-checkbox-span {
   height: 16px;
   width: 16px;
-  border: 1.25px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color var(--transition-duration)
       var(--transition-bazier),
@@ -743,4 +743,23 @@ ul.portfo-main-ul-frst {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+.modal-window-checkbox-a {
+  color: var(--hover-color);
+}
+.modal-window-form-btn {
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: var(--custom-p-font-size);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: var(--button-menu-color);
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  transition: background-color var(--transition-duration)
+    var(--transition-bazier);
 }
