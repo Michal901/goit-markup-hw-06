@@ -698,3 +698,5 @@ ul.portfo-main-ul-frst {
   transform: translateY(-50%);
   transition: fill var(--transition-duration) var(--transition-bazier);
 }
+.modal-window-form-textarea {
+}
