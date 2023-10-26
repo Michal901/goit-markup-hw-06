@@ -716,3 +716,6 @@ ul.portfo-main-ul-frst {
   transition: border-color var(--transition-duration) var(--transition-bazier);
   background-color: transparent;
 }
+.modal-window-form-textarea:focus {
+  border-color: var(--hover-color);
+}
