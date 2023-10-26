@@ -235,8 +235,10 @@ a.hover-menu-sec:focus {
 .footer-form-1 {
   display: flex;
 }
-.footer-form-input {
+.footer-form-label {
   gap: 24px;
+}
+.footer-form-input {
   width: 264px;
   height: 40px;
   border: 1px solid var(--background-color);
@@ -249,6 +251,7 @@ a.hover-menu-sec:focus {
   border-radius: 4px;
   outline: none;
   margin-right: 24px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 .footer-form-btn {
   min-width: 165px;
