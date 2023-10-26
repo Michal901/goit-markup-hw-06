@@ -224,6 +224,31 @@ a.hover-menu-sec:focus {
 .footer-cont-two-svg {
   fill: var(--sec-back-color);
 }
+.footer-form-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--background-color);
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.footer-form-1 {
+  display: flex;
+}
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--background-color);
+  background-color: transparent;
+  font-size: var(--p-modal-font-size);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+  padding-left: 16px;
+  border-radius: 4px;
+  outline: none;
+  margin-right: 24px;
+}
 /* FOOTER END */
 /* !!!!!!!!EACH PAGE END!!!!! */
 
