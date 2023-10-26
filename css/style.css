@@ -666,6 +666,9 @@ ul.portfo-main-ul-frst {
 .modal-window-form-container {
   margin-bottom: 8px;
 }
+.margin {
+  margin-bottom: 16px;
+}
 .modal-window-form-label {
   font-size: 12px;
   line-height: 1.17;
