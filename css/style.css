@@ -249,6 +249,25 @@ a.hover-menu-sec:focus {
   outline: none;
   margin-right: 24px;
 }
+.footer-form-btn {
+  width: 165px;
+  height: 40px;
+  background-color: var(--hover-color);
+  border-radius: 4px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--hover-color);
+}
+.footer-form-svg {
+  margin-left: 16px;
+}
 /* FOOTER END */
 /* !!!!!!!!EACH PAGE END!!!!! */
 
