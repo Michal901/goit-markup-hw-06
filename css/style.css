@@ -744,15 +744,15 @@ ul.portfo-main-ul-frst {
   background-color: transparent;
   outline: transparent;
 }
-/* .modal-window-form-input:focus  {
+.modal-window-form-input:focus {
   border-color: var(--hover-color);
-} */
-.modal-window-form-input::placeholder {
+}
+/* .modal-window-form-input::placeholder {
   font-size: var(--p-modal-font-size);
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-}
+} */
 .modal-window-form-input:focus + .modal-window-form-svg {
   fill: var(--hover-color);
 }
