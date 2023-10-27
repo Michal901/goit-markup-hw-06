@@ -232,7 +232,7 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.footer-form-1 {
+.footer-form-a {
   display: flex;
 }
 .footer-form-label {
@@ -255,7 +255,7 @@ a.hover-menu-sec:focus {
 }
 .footer-form-btn {
   min-width: 165px;
-  display: block;
+  display: flex;
   align-items: center;
   justify-content: center;
   height: 40px;
