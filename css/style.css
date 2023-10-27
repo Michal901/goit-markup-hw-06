@@ -672,6 +672,7 @@ ul.portfo-main-ul-frst {
 }
 
 .modal-window-btn {
+  display: block;
   position: absolute;
   top: 24px;
   right: 24px;
