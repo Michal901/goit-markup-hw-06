@@ -239,6 +239,7 @@ a.hover-menu-sec:focus {
   gap: 24px;
 }
 .footer-form-input {
+  gap: 24px;
   width: 264px;
   height: 40px;
   border: 1px solid var(--background-color);
