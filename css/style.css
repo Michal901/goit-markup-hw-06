@@ -746,6 +746,23 @@ ul.portfo-main-ul-frst {
 .modal-window-form-input:focus {
   border-color: var(--hover-color);
 }
+/* .modal-window-form-input::placeholder {
+  font-size: var(--p-modal-font-size);
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+}
+.modal-window-form-input:focus + .modal-window-form-svg {
+  fill: var(--hover-color);
+} */
+.modal-window-form-input:checked {
+  background-color: var(--button-menu-color);
+}
+.modal-window-form-input:checked + .modal-window-form-span {
+  border: none;
+  fill: var(--sec-back-color);
+}
+
 .modal-window-form-svg {
   position: absolute;
   left: 16px;
