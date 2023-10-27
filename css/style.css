@@ -255,7 +255,7 @@ a.hover-menu-sec:focus {
 }
 .footer-form-btn {
   min-width: 165px;
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   height: 40px;
