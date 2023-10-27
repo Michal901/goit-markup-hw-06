@@ -672,7 +672,6 @@ ul.portfo-main-ul-frst {
 }
 
 .modal-window-btn {
-  display: block;
   position: absolute;
   top: 24px;
   right: 24px;
@@ -800,6 +799,7 @@ ul.portfo-main-ul-frst {
   color: var(--hover-color);
 }
 .modal-window-form-btn {
+  display: block;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
@@ -808,7 +808,7 @@ ul.portfo-main-ul-frst {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: var(--button-menu-color);
+  background-color: var(--hover-color);
   cursor: pointer;
   border-radius: 4px;
   border: none;
