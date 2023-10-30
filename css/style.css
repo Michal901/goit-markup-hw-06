@@ -187,7 +187,6 @@ a.hover-menu-sec:focus {
   color: var(--sec-back-color);
   letter-spacing: 0.02em;
   width: 264px;
-  max-width: 264px;
 }
 .footer-form {
   margin-left: 80px;
