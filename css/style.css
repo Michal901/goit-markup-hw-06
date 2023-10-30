@@ -165,7 +165,7 @@ a.hover-menu-sec:focus {
 /* FOOTER */
 .footer {
   background-color: var(--custom-link-color);
-  padding: 100px 0;
+  padding: 120px 0;
 }
 .footer-containers {
   display: flex;
@@ -186,6 +186,7 @@ a.hover-menu-sec:focus {
   line-height: 1.5;
   color: var(--sec-back-color);
   letter-spacing: 0.02em;
+  width: 264px;
   max-width: 264px;
 }
 .footer-form {
@@ -240,11 +241,7 @@ a.hover-menu-sec:focus {
   display: flex;
   gap: 24px;
 }
-.footer-form-label {
-  gap: 24px;
-}
 .footer-form-input {
-  gap: 24px;
   width: 264px;
   height: 40px;
   border: 1px solid var(--background-color);
