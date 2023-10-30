@@ -188,6 +188,9 @@ a.hover-menu-sec:focus {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+.footer-form {
+  margin-left: 80px;
+}
 .footer-sec-p {
   font-weight: 500;
   font-size: var(--custom-p-font-size);
