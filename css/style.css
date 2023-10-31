@@ -790,6 +790,7 @@ ul.portfo-main-ul-frst {
 .modal-window-checkbox-span {
   height: 16px;
   width: 16px;
+  margin-right: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color var(--transition-duration)
